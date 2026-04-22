@@ -1,0 +1,25 @@
+{
+  "name": "urbanserve",
+  "version": "1.0.0",
+  "description": "Urban Company-like full-stack home service booking app",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [
+    "urbanserve",
+    "booking",
+    "react",
+    "nodejs",
+    "mysql",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
